@@ -4,7 +4,7 @@ The original interpretation of this program, by Raindolf Owusu, was written in C
 
 The second interpretation of this program, by Kafui Gblonya, was written in Java and was also a console application.
 
-The third interpretation of this program , by Cody dostal , was written in python. 
+The third interpretation of this program , by Cody dostal , was written in python and was also a console application.
 
 You can find all the three interpretation of this program here. https://github.com/raindolf/African-Grading-Program
 
