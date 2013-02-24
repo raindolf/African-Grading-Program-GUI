@@ -1,0 +1,55 @@
+/**
+ ******************************************************************************
+ * $Id: main.rc 34 2013-02-20 00:09:57Z mkwayisi $
+ * ----------------------------------------------------------------------------
+ * Authored by Michael Kwayisi. Copyright (c) 2009-2013. All rights reserved.
+ * Please send your comments to mkwayisi@gmail.com | Web: michaelkwayisi.com
+ * ----------------------------------------------------------------------------
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * stringently met:
+ *   1. Redistributions of source code must retain the above copyright notice,
+ *      this list of conditions, and the following disclaimer.
+ *   2. Redistributions in binary form must reproduce the above copyright
+ *      notice, this list of conditions, and the following disclaimer in the
+ *      documentation and/or other materials provided with the package.
+ *   3. The end-user documentation included with the redistribution, if any,
+ *      must include the following acknowledgment:
+ *         "This product includes software developed by Michael Kwayisi"
+ *      Alternately, this acknowledgment may appear in the software itself,
+ *      if and wherever such third-party acknowledgments normally appear.
+ *   4. Neither the name of the software nor the name of its author and/or
+ *      contributors may be used to endorse or promote products derived from
+ *      this software without specific prior written permission.
+ ******************************************************************************
+ */
+
+#include <windows.h>
+#include "main.h"
+
+1				RT_MANIFEST		"../res/Application.manifest"
+IDR_ICO_MAIN	ICON			"../res/africa.ico"
+
+1 VERSIONINFO
+PRODUCTVERSION 0, 4, 0, 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040904E4"	// U.S. English, Multilingual
+		BEGIN
+			VALUE "ProductName",      STR_APPNAME
+			VALUE "ProductVersion",   STR_APPVERSION
+			VALUE "FileDescription",  STR_APPNAME
+			VALUE "CompanyName",      STR_APPPUBLISHER
+			VALUE "LegalCopyright",   STR_APPCOPYRIGHT
+			VALUE "InternalName",     "afgp.exe"
+			VALUE "OriginalFilename", "afgp.exe"
+		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x409, 1200	// English, Unicode
+	END
+END
