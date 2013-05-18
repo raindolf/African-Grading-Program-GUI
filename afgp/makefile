@@ -76,3 +76,5 @@ $(OBJD)/libwin32.o : src/libwin32.c src/libwin32.h
 
 $(OBJD) $(BIND) :
 	md $@
+	
+	//Code debug by Raindolf Owusu
